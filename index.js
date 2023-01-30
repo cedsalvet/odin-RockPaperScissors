@@ -51,7 +51,7 @@ function showRound(playerChoice, computerChoice) {
     let roundDiv = document.querySelector("#round");
     let resultDiv = document.querySelector("#result");
     let thisRound = document.createElement("div");
-    let oldRound = round.querySelectorAll("div");
+    let oldRound = roundDiv.querySelectorAll("div");
 
     oldRound.forEach((round) => {
         if (!round.classList.contains("inactive")) 
